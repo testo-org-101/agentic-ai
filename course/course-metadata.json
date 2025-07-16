@@ -1,0 +1,33 @@
+{
+  "id": "68781c1d0381bd6207c1d0c8",
+  "title": "Agentic AI",
+  "description": "This course explores Agentic Artificial Intelligence mechanisms, theory, and its applications.",
+  "learningObjectives": [
+    "Demonstrate knowledge of Agentic AI concepts",
+    "Identify and solve problems using Agentic AI strategies",
+    "Design Agentic AI systems based on user requirements",
+    "Evaluate effectiveness of Agentic AI solutions"
+  ],
+  "finalProjectDetails": {
+    "overview": "Design an Agentic AI solution for a real-world problem.",
+    "planningResources": [
+      "Agentic AI solution design guide",
+      "Templates for requirement gathering and solution analysis"
+    ],
+    "submissionInstructions": "Submit a project report outlining the problem selected, your AI solution design, prototype implementation, and testing and evaluation results.",
+    "requirements": [
+      ""
+    ]
+  },
+  "createdBy": {
+    "_id": "6800a73454438765dcfd5e07",
+    "name": "Tammam Alwafai",
+    "image": "https://avatars.githubusercontent.com/u/47179662?v=4",
+    "githubUsername": "1992tw"
+  },
+  "contributors": [],
+  "status": "pending",
+  "originalGithubUrl": null,
+  "createdAt": "2025-07-16T21:39:41.282Z",
+  "updatedAt": "2025-07-16T21:39:41.282Z"
+}
