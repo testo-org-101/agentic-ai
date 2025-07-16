@@ -4,12 +4,189 @@
   "title": "Evaluating Agentic AI Solutions",
   "status": "pending",
   "assignment": {
-    "title": "Assignment will be generated",
-    "objective": "Objective will be provided when lesson is generated",
-    "expectedCapabilities": [],
-    "instructions": [],
-    "tasks": [],
-    "submissionInstructions": "Submission instructions will be provided when lesson is generated"
+    "title": "Evaluate an Existing Agentic AI System",
+    "objective": "Apply both quantitative and qualitative evaluation methods to an existing AI system.",
+    "expectedCapabilities": [
+      "Identify appropriate metrics for AI evaluation",
+      "Conduct empirical testing",
+      "Analyze evaluation outcomes for improvement"
+    ],
+    "submissionInstructions": "Submit a detailed report including metrics chosen, methods of evaluation, and your analysis on the system's performance.",
+    "tasks": [
+      {
+        "taskNumber": 1,
+        "title": "Analyze User Feedback",
+        "description": "Gather user feedback on the AI system's usability and efficiency, documenting key themes.",
+        "codeExample": "N/A",
+        "_id": "687820f50381bd6207c1d134"
+      }
+    ],
+    "instructions": [
+      {
+        "partNumber": 1,
+        "steps": [
+          {
+            "taskNumber": 1,
+            "title": "Select an AI System",
+            "description": "Choose an AI system for evaluation, either from previous lessons or an external source.",
+            "codeExample": "N/A",
+            "_id": "687820f50381bd6207c1d131"
+          },
+          {
+            "taskNumber": 2,
+            "title": "Define Evaluation Metrics",
+            "description": "Identify suitable quantitative and qualitative metrics based on the system's purpose.",
+            "codeExample": "N/A",
+            "_id": "687820f50381bd6207c1d132"
+          },
+          {
+            "taskNumber": 3,
+            "title": "Conduct the Evaluation",
+            "description": "Using the defined metrics, evaluate the chosen AI system. Document findings with evidence.",
+            "codeExample": "N/A",
+            "_id": "687820f50381bd6207c1d133"
+          }
+        ],
+        "_id": "687820f50381bd6207c1d130"
+      }
+    ],
+    "checklist": [
+      "Identify metrics for evaluation",
+      "Conduct quantitative tests",
+      "Gather qualitative feedback",
+      "Complete analysis report"
+    ],
+    "checkForUnderstanding": [
+      {
+        "question": "Which metric is suitable for evaluating AI's speed?",
+        "options": [
+          "Accuracy",
+          "Efficiency",
+          "User engagement"
+        ],
+        "answer": "Efficiency",
+        "_id": "687820f50381bd6207c1d12d"
+      },
+      {
+        "question": "Why is ethical compliance considered in evaluations?",
+        "options": [
+          "For user manual updates",
+          "To meet regulatory requirements",
+          "To enhance system speed"
+        ],
+        "answer": "To meet regulatory requirements",
+        "_id": "687820f50381bd6207c1d12e"
+      },
+      {
+        "question": "What purpose do feedback loops serve?",
+        "options": [
+          "Memory optimization",
+          "Continuous improvement",
+          "Data storage"
+        ],
+        "answer": "Continuous improvement",
+        "_id": "687820f50381bd6207c1d12f"
+      }
+    ]
   },
-  "subsections": []
+  "subsections": [
+    {
+      "subsectionOrder": 1,
+      "title": "Introduction to Evaluation Criteria for AI Systems",
+      "content": "Evaluating AI systems requires a comprehensive understanding of both qualitative and quantitative metrics. This subsection introduces how Agentic AI systems differ from other AI systems, focusing on their autonomous decision-making capability and interaction with users.",
+      "videoUrl": "https://video.com/evaluationCriteria",
+      "codeExamples": [],
+      "externalLinks": [
+        "https://arxiv.org/pdf/1906.01535.pdf"
+      ],
+      "quizzes": [
+        {
+          "question": "What makes Agentic AI systems unique in evaluation?",
+          "options": [
+            "Limited user interaction",
+            "Autonomous decision-making",
+            "Basis on historical data"
+          ],
+          "answer": "Autonomous decision-making",
+          "_id": "687820f50381bd6207c1d126"
+        }
+      ],
+      "_id": "687820f50381bd6207c1d125"
+    },
+    {
+      "subsectionOrder": 2,
+      "title": "Quantitative Metrics for AI Performance",
+      "content": "Quantitative metrics are essential for assessing the performance of Agentic AI systems. Metrics include:\n- Accuracy: How well the AI performs tasks compared to a benchmark.\n- Efficiency: Time and resources consumed by the AI.\n- Scalability: How the AI performance changes with increased data or complexity.",
+      "videoUrl": "https://video.com/quantMetrics",
+      "codeExamples": [],
+      "externalLinks": [
+        "https://towardsdatascience.com/measuring-the-performance-of-ai-models-9c9e96d3ba2f"
+      ],
+      "quizzes": [
+        {
+          "question": "Which of the following is a quantitative metric?",
+          "options": [
+            "User satisfaction",
+            "Accuracy",
+            "Ethical compliance"
+          ],
+          "answer": "Accuracy",
+          "_id": "687820f50381bd6207c1d128"
+        }
+      ],
+      "_id": "687820f50381bd6207c1d127"
+    },
+    {
+      "subsectionOrder": 3,
+      "title": "Qualitative Aspects of AI Evaluation",
+      "content": "Qualitative aspects focus on more subjective measures and can include:\n- User Satisfaction: Measuring how users perceive the AI's effectiveness and usability.\n- Ethical Considerations: Ensuring the AI operates within ethical and legal boundaries.\n- Transparency: How well users can understand the AI's decision-making processes.",
+      "videoUrl": "https://video.com/qualMetrics",
+      "codeExamples": [],
+      "externalLinks": [
+        "https://ethical.institute/"
+      ],
+      "quizzes": [
+        {
+          "question": "What is a qualitative measure in AI evaluation?",
+          "options": [
+            "Efficiency",
+            "User Satisfaction",
+            "Scalability"
+          ],
+          "answer": "User Satisfaction",
+          "_id": "687820f50381bd6207c1d12a"
+        }
+      ],
+      "_id": "687820f50381bd6207c1d129"
+    },
+    {
+      "subsectionOrder": 4,
+      "title": "Practical Evaluation Techniques",
+      "content": "This subsection provides a hands-on approach to evaluating AI systems:\n- Setting benchmarks for comparison.\n- Conducting A/B tests to determine effective interventions.\n- Utilizing feedback loops for continuous improvement.",
+      "videoUrl": "https://video.com/practicalEval",
+      "codeExamples": [
+        "def evaluate_performance(actual, predicted):\n  error = sum((a - p)**2 for a, p in zip(actual, predicted)) / len(actual)\n  return error"
+      ],
+      "externalLinks": [],
+      "quizzes": [
+        {
+          "question": "Which technique can be used for real-time evaluation?",
+          "options": [
+            "Benchmarks",
+            "Feedback Loops",
+            "Final assessment"
+          ],
+          "answer": "Feedback Loops",
+          "_id": "687820f50381bd6207c1d12c"
+        }
+      ],
+      "_id": "687820f50381bd6207c1d12b"
+    }
+  ],
+  "supplementalVideos": [
+    "https://video.com/evaluationTechniquesOverview"
+  ],
+  "references": [
+    "https://www.kdnuggets.com/2020/06/evaluating-machine-learning-models-tips.html"
+  ]
 }
